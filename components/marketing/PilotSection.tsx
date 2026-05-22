@@ -26,12 +26,15 @@ export function PilotSection() {
 
               <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <button className="rounded-2xl bg-[#5d7cf0] px-8 py-4 text-sm font-medium text-white transition hover:bg-[#6d8cff]">
-                  Request Access
+                  Request Research Access
                 </button>
 
-                <button className="rounded-2xl border border-white/[0.08] bg-white/[0.03] px-8 py-4 text-sm font-medium text-slate-200 transition hover:bg-white/[0.06]">
+                <a
+                  href="#pilot-form"
+                  className="rounded-2xl border border-white/[0.08] bg-white/[0.03] px-8 py-4 text-sm font-medium text-slate-200 transition hover:bg-white/[0.06]"
+                >
                   Contact Research Team
-                </button>
+                </a>
               </div>
 
               <div className="mt-14 flex flex-wrap items-center justify-center gap-8 text-sm text-slate-500">

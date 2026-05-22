@@ -33,7 +33,7 @@ export default function HomePage() {
                 href="#pilot"
                 className="w-full rounded-2xl bg-[#4f6fd8] px-7 py-4 text-center text-sm font-medium text-white transition hover:bg-[#5d7cf0] sm:w-auto"
               >
-                Request Access
+                Request Research Access
               </a>
 
               <a

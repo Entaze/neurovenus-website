@@ -55,7 +55,7 @@ export function MarketingNavbar() {
             href="#pilot"
             className="rounded-2xl bg-[#4f6fd8] px-5 py-3 text-sm font-medium text-white transition hover:bg-[#5d7cf0]"
           >
-            Request Access
+            Request Research Access
           </a>
         </div>
 

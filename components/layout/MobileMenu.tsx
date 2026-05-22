@@ -117,7 +117,7 @@ export function MobileMenu() {
                 onClick={() => setOpen(false)}
                 className="flex w-full items-center justify-center rounded-2xl bg-[#5d7cf0] px-6 py-4 text-sm font-medium text-white transition hover:bg-[#6d8cff]"
               >
-                Request Access
+                Request Research Access
               </a>
 
               <a
