@@ -8,7 +8,10 @@ export const metadata: Metadata = {
     "Neurovenus is a remote cognitive and sleep research platform for structured protocols, online assessments, participant workflows, and analysis-ready exports.",
 
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
+      { url: "/favicon.ico", sizes: "any" },
+    ],
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
