@@ -3,14 +3,15 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://neurovenus.com"),
-
   title: "Neurovenus | Remote Cognitive & Sleep Research Platform",
-
   description:
     "Neurovenus is a remote cognitive and sleep research platform for structured protocols, online assessments, participant workflows, and analysis-ready exports.",
 
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+    ],
+    shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
 
