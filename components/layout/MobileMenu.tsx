@@ -121,7 +121,7 @@ export function MobileMenu() {
               </a>
 
               <a
-                href="#pilot"
+                href="https://app.neurovenus.com"
                 onClick={() => setOpen(false)}
                 className="mt-4 flex w-full items-center justify-center rounded-2xl border border-white/[0.08] bg-white/[0.03] px-6 py-4 text-sm font-medium text-slate-200 transition hover:bg-white/[0.05]"
               >

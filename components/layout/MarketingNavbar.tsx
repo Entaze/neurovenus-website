@@ -45,7 +45,7 @@ export function MarketingNavbar() {
 
         <div className="hidden items-center gap-5 lg:flex">
           <a
-            href="#pilot"
+            href="https://app.neurovenus.com"
             className="text-sm text-slate-400 transition hover:text-white"
           >
             Sign In
