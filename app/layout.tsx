@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "/og-image.png",
+        url: "/neurovenus-og-image.png",
         width: 1200,
         height: 630,
         alt: "Neurovenus research platform",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     description:
       "Remote cognitive and sleep research infrastructure for academic labs, institutions, and clinical research teams.",
 
-    images: ["/og-image.png"],
+    images: ["/neurovenus-og-image.png"],
   },
 };
 
