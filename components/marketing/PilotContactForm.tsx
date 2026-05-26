@@ -133,7 +133,7 @@ export function PilotContactForm() {
         <button
           type="submit"
           disabled={status === "loading"}
-          className="rounded-2xl bg-[#5d7cf0] px-7 py-4 text-sm font-medium text-white transition hover:bg-[#6d8cff] disabled:cursor-not-allowed disabled:opacity-70"
+          className="min-w-[210px] rounded-2xl bg-[#5d7cf0] px-7 py-4 text-center text-sm font-medium text-white transition hover:bg-[#6d8cff] disabled:cursor-not-allowed disabled:opacity-70"
         >
           {status === "loading"
             ? "Submitting..."

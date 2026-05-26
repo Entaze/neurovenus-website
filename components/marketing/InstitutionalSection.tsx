@@ -39,9 +39,9 @@ export function InstitutionalSection() {
             {features.map((feature) => (
               <div
                 key={feature}
-                className="flex items-start gap-3 rounded-2xl border border-white/[0.06] bg-white/[0.02] px-5 py-4"
+                className="flex items-center gap-4 rounded-2xl border border-white/[0.06] bg-white/[0.02] px-5 py-4"
               >
-                <div className="mt-1 h-2.5 w-2.5 rounded-full bg-cyan-400" />
+                <div className="h-2.5 w-2.5 shrink-0 rounded-full bg-cyan-400" />
 
                 <div className="text-sm leading-7 text-slate-300">
                   {feature}
