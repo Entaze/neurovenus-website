@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "/neurovenus-og-image.png",
+        url: "/icon.png",
         width: 1200,
         height: 630,
         alt: "Neurovenus research platform",
