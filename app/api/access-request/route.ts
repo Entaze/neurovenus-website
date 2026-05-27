@@ -17,9 +17,15 @@ export async function POST(request: Request) {
 
     console.log("Research Access Request Received:", body);
 
+    const recipients =
+      process.env.PILOT_REQUEST_TO
+        ?.split(",")
+        .map((email) => email.trim())
+        .filter(Boolean) || [];
+
     await resend.emails.send({
-      from: "Neurovenus <onboarding@resend.dev>",
-      to: process.env.PILOT_REQUEST_TO || "",
+      from: "Neurovenus Research <research@mail.neurovenus.com>",
+      to: recipients,
       subject: `New Neurovenus Research Access Request from ${name}`,
       html: `
         <h2>New Research Access Request</h2>
