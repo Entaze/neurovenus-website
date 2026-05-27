@@ -24,18 +24,20 @@
 
 html {
   scroll-behavior: smooth;
+  background: #020617;
 }
 
 html,
 body {
   width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+
   background:
     radial-gradient(
       circle at top left,
@@ -50,11 +52,23 @@ body {
       #0b0820 100%
     );
 
+  background-color: #020617;
+
   color: var(--text-primary);
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* iOS Safari bottom area fix */
+  overscroll-behavior: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+#__next,
+main {
+  min-height: 100vh;
+  background: transparent;
 }
 
 *,
