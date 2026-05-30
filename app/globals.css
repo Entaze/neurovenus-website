@@ -34,6 +34,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  overflow-y: auto;
+}
+
 body {
   margin: 0;
   font-family: Inter, sans-serif;
@@ -53,15 +57,12 @@ body {
     );
 
   background-color: #020617;
-
   color: var(--text-primary);
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  /* iOS Safari bottom area fix */
-  overscroll-behavior: none;
   -webkit-overflow-scrolling: touch;
 }
 
@@ -100,7 +101,6 @@ svg {
   color: white;
 }
 
-/* Chrome, Edge, Safari */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -118,7 +118,6 @@ svg {
   background: rgba(148, 163, 184, 0.28);
 }
 
-/* Firefox */
 * {
   scrollbar-width: thin;
   scrollbar-color: rgba(148, 163, 184, 0.18) #020617;
